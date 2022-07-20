@@ -1,0 +1,211 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: default;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  background: url(../image/page-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8));
+}
+
+.navbar {
+  width: 100%;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo {
+  z-index: 2;
+}
+.navbar .logo img {
+  width: 134px;
+}
+.navbar .form-bar {
+  z-index: 2;
+  display: flex;
+}
+.navbar .form-bar .lang-sel {
+  height: 34.198px !important;
+  width: 100.6px;
+}
+.navbar .form-bar .lang-sel .world {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.navbar .form-bar .lang-sel .arrow {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.navbar .form-bar .lang-sel select {
+  outline: none;
+  -webkit-appearance: none;
+  height: 3.198px !important;
+  width: 100.6px;
+  height: 36px !important;
+  border: 1px solid #b3b3b3;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+}
+.navbar .form-bar .lang-sel select option {
+  background: #949a9c;
+}
+.navbar .form-bar .signin button {
+  padding: 7px 17px;
+  background: #E50914;
+  color: white;
+  border-radius: 3px;
+  border: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 32px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 75px 45px;
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+}
+.content .content-general {
+  padding-left: 120px;
+  padding-right: 120px;
+  z-index: 3;
+  padding-top: 75px;
+}
+.content .content-general .con-header {
+  font-size: 50px;
+  font-family: helvetica;
+  color: white;
+  font-weight: 700;
+  z-index: 3;
+}
+.content .content-general .con-center {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(255, 255, 255);
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content .content-general .con-theme {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 13.6px;
+  margin-bottom: 20px;
+}
+.content .content-general .con-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .content-general .con-footer input {
+  width: 450px;
+  height: 60px;
+  border: 0px;
+  padding-left: 20px;
+  font-family: helvetica;
+  color: black;
+  font-size: 16px;
+}
+.content .content-general .con-footer label {
+  position: absolute;
+  margin-right: 520px;
+  color: gray;
+  font-family: helvetica;
+}
+.content .content-general .con-footer button {
+  width: 212px;
+  height: 60px;
+  border: 0px;
+  background-color: #E50914;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .content-general .con-footer button .right-arrow {
+  height: 24px !important;
+}
+
+.line {
+  width: 100%;
+  height: 8px;
+  background-color: #222222;
+}
+
+.main {
+  width: 100%;
+  height: 465.917px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 70px;
+  background: black;
+}
+.main .main-box {
+  margin-top: 70px;
+  margin-left: 45px;
+  margin-right: 45px;
+  background: black;
+}
+
+@media screen and (min-width: 1449px) {
+  .header, .header::after {
+    height: 734.385px;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1449px) {
+  .header, .header::after {
+    height: 693.594px;
+  }
+  .navbar {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+@media screen and (min-width: 740px) and (max-width: 949px) {
+  .header, .header::after {
+    height: 742px;
+  }
+}
+@media screen and (max-width: 739px) {
+  .header, .header::after {
+    height: 716.667px;
+  }
+}/*# sourceMappingURL=style.css.map */
