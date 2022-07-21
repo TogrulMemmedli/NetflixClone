@@ -11,6 +11,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll;
+  background: black;
 }
 
 body::-webkit-scrollbar {
@@ -216,6 +217,297 @@ body::-webkit-scrollbar {
   z-index: 0;
   width: 30vw;
   margin-top: -5px;
+}
+
+.main02 {
+  width: 100%;
+  background: black;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 70px 45px;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.main02 .main02-con {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.main02 .main02-con .left-main02 {
+  display: flex;
+  flex: 0 1 auto;
+  height: 100%;
+  width: 48%;
+}
+.main02 .main02-con .left-main02 .left-main02-top {
+  margin: -8% 0 -4% -15%;
+  min-height: 100px;
+  width: 100%;
+}
+.main02 .main02-con .left-main02 .left-main02-top img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  z-index: 2;
+  margin-bottom: -90px;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end {
+  position: relative;
+  background: #000000;
+  border: 2px solid hsla(0deg, 0%, 100%, 0.25);
+  border-radius: 0.75em;
+  box-shadow: 0 0 2em 0 #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 15em;
+  padding: 0.25em 0.65em;
+  height: 92px;
+  width: 60%;
+  z-index: 8;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-left {
+  width: 25%;
+  height: 100%;
+  margin-top: 5px;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-left img {
+  margin-bottom: 0px;
+  height: 90%;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-center {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-center .lm02tec-a {
+  font-weight: 600;
+  font-size: 1em;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-center .lm02tec-b {
+  font-size: 0.9em;
+  color: #0071eb;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-right {
+  width: 25%;
+}
+.main02 .main02-con .left-main02 .left-main02-top .lm02t-end .lm02t-end-right img {
+  margin-bottom: 0px;
+}
+.main02 .main02-con .right-main02 {
+  color: white;
+  width: 52%;
+}
+.main02 .main02-con .right-main02 .rm02-top {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.main02 .main02-con .right-main02 .rm02-end {
+  font-size: 1.65rem;
+  margin: 0.75em 0 0.25em;
+}
+
+.right-main03 {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-main03 img {
+  width: 100%;
+  padding: 50px 5%;
+  z-index: 2;
+}
+.right-main03 video {
+  position: absolute;
+  z-index: 0;
+  width: 25vw;
+  margin-top: -50px;
+}
+
+.main04 {
+  width: 100%;
+  padding: 45px 45px;
+  background: black;
+}
+.main04 .main04-theme {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.main04 .main04-theme .m04-left {
+  width: 48%;
+}
+.main04 .main04-theme .m04-left img {
+  border: 0;
+  height: auto;
+  max-width: 95%;
+}
+.main04 .main04-theme .m04-right {
+  color: white;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 0 0 3rem;
+  width: 52%;
+}
+.main04 .main04-theme .m04-right .m04header {
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 46px;
+}
+.main04 .main04-theme .m04-right .m04content {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 0.75em 0 0.25em;
+}
+
+.faq {
+  padding: 70px 45px;
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: #fff;
+  margin-bottom: 0;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq .faq-head {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.faq .faq-header {
+  width: 67.5%;
+  background: #303030;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20.8px 31.2px;
+  margin-bottom: 8px;
+}
+.faq .faq-header div {
+  font-size: 1.625rem;
+}
+.faq .faq-content {
+  margin-bottom: 8px;
+  width: 67.5%;
+  background: #303030;
+  text-align: left;
+  padding: 20.8px 31.2px;
+  font-size: 1.625rem;
+  display: none;
+}
+.faq .con-theme {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 13.6px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.faq form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq form input {
+  width: 450px;
+  height: 60px;
+  border: 0px;
+  padding-left: 20px;
+  font-family: helvetica;
+  color: black;
+  font-size: 16px;
+}
+.faq form label {
+  position: absolute;
+  margin-right: 520px;
+  color: gray;
+  font-family: helvetica;
+}
+.faq form button {
+  width: 212px;
+  height: 60px;
+  border: 0px;
+  background-color: #E50914;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq form button .right-arrow {
+  height: 24px !important;
+}
+
+footer {
+  color: rgb(115, 115, 115);
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 70px;
+  padding-right: 45px;
+  padding-left: 45px;
+  background: black;
+}
+footer .footer-content {
+  background: black;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+footer .footer-content .footer-button {
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333;
+  width: 15%;
+  margin-bottom: 30px;
+}
+footer .footer-content .footer-button select {
+  height: 100%;
+  line-height: 1.7;
+  outline: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0px;
+  color: #737373;
+  font-size: 16px;
+}
+footer .footer-content .footer-theme {
+  margin-bottom: 30px;
+}
+footer .footer-content table {
+  width: 100%;
+}
+footer .footer-content table tr {
+  height: 32px;
+}
+footer .footer-content table tr td {
+  padding: 0 12px 0 0;
+}
+footer .footer-content .footer-end {
+  margin-bottom: 13px;
+  font-size: 14px;
+  margin-top: 24px;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1449px) {
