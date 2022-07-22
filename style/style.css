@@ -4,7 +4,6 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  cursor: default;
 }
 
 body {
@@ -89,6 +88,7 @@ body::-webkit-scrollbar {
   font-size: 1rem;
   font-weight: 400;
   margin-left: 32px;
+  cursor: pointer;
 }
 
 .content {
@@ -161,7 +161,11 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 .content .content-general .con-footer button .right-arrow {
+  margin-top: 6px !important;
   height: 24px !important;
+}
+.content .content-general .con-footer button:hover {
+  background-color: #f40612;
 }
 
 .line {
@@ -501,6 +505,13 @@ footer .footer-content .footer-select {
 footer .footer-content .footer-select .footer-selections {
   margin-bottom: 18px;
   font-size: 13px;
+}
+footer .footer-content .footer-select .footer-selections a {
+  text-decoration: none;
+  color: #737373;
+}
+footer .footer-content .footer-select .footer-selections a:hover {
+  text-decoration: underline;
 }
 footer .footer-content .footer-end {
   margin-bottom: 13px;
