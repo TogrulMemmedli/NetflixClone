@@ -197,7 +197,6 @@ body::-webkit-scrollbar {
 }
 .main .left-main .lm-end {
   font-size: 1.625rem;
-  padding: 0 3rem 0 0;
   margin: 0.75em 0 0.25em;
 }
 .main .right-main {
@@ -524,13 +523,377 @@ footer .footer-content .footer-end {
     padding-right: 56px;
   }
 }
-@media screen and (min-width: 740px) and (max-width: 949px) {
+@media screen and (min-width: 740px) and (max-width: 950px) {
   .header, .header::after {
     height: 742px;
   }
+  .navbar {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  .navbar .form-bar {
+    z-index: 2;
+    display: flex;
+    width: 200px;
+  }
+  .navbar .form-bar .lang-sel {
+    height: 34.198px !important;
+    width: 100.6px;
+    margin-right: -10px;
+  }
+  .navbar .form-bar .lang-sel .world {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar .form-bar .lang-sel .arrow {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .navbar .form-bar .lang-sel select {
+    outline: none;
+    -webkit-appearance: none;
+    height: 3.198px !important;
+    width: 100.6px;
+    height: 36px !important;
+    border: 1px solid #b3b3b3;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .navbar .form-bar .lang-sel select option {
+    background: #949a9c;
+  }
+  .navbar .form-bar .signin button {
+    padding: 7px 17px;
+    background: #E50914;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-left: 32px;
+  }
+  .content .content-general {
+    margin: o auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .content-general .con-header {
+    width: 640px;
+  }
+  .content .content-general .con-theme {
+    font-size: 1.2rem;
+    width: 400px;
+  }
+  .content .content-general .con-footer {
+    flex-direction: column;
+  }
+  .content .content-general .con-footer input {
+    width: 500px;
+  }
+  .content .content-general .con-footer button {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 1rem;
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+  }
+  .content .content-general .con-footer button .right-arrow img {
+    margin-top: 6px;
+    width: 14px;
+    height: 14px;
+  }
+  .navbar {
+    width: 100%;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .logo {
+    z-index: 2;
+  }
+  .navbar .logo img {
+    width: 108px;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: black;
+  }
+  .main .left-main {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem;
+  }
+  .main .left-main .lm-top {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .main .left-main .lm-end {
+    font-size: 20px;
+    margin: 0.75em 0 0.25em;
+  }
+  .main .right-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .right-main img {
+    width: 95%;
+    z-index: 2;
+    padding: 0px 5%;
+  }
+  .main .right-main video {
+    position: absolute;
+    z-index: 0;
+    width: 58vw;
+    margin-top: -10px;
+  }
 }
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 740px) {
   .header, .header::after {
     height: 716.667px;
+  }
+  .navbar {
+    padding-left: 25.5px;
+    padding-right: 25.5px;
+  }
+  .navbar .form-bar {
+    z-index: 2;
+    display: flex;
+    width: 184px;
+  }
+  .navbar .form-bar .lang-sel {
+    height: 34.198px !important;
+    width: 100.6px;
+    margin-right: -20px;
+  }
+  .navbar .form-bar .lang-sel .world {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar .form-bar .lang-sel .arrow {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .navbar .form-bar .lang-sel select {
+    outline: none;
+    -webkit-appearance: none;
+    height: 3.198px !important;
+    width: 100.6px;
+    height: 36px !important;
+    border: 1px solid #b3b3b3;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .navbar .form-bar .lang-sel select option {
+    background: #949a9c;
+  }
+  .navbar .form-bar .signin button {
+    padding: 7px 17px;
+    background: #E50914;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-left: 32px;
+  }
+  .content .content-general {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .content-general .con-header {
+    width: 540px;
+  }
+  .content .content-general .con-theme {
+    font-size: 18px !important;
+  }
+  .content .content-general .con-footer {
+    flex-direction: column;
+  }
+  .content .content-general .con-footer input {
+    height: 48px;
+  }
+  .content .content-general .con-footer button {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 1rem;
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+  }
+  .content .content-general .con-footer button .right-arrow img {
+    margin-top: 6px;
+    width: 14px;
+    height: 14px;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: black;
+  }
+  .main .left-main {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 26px !important;
+  }
+  .main .left-main .lm-top {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .main .left-main .lm-end {
+    font-size: 1.625rem;
+    margin: 0.75em 0 0.25em;
+    font-size: 20px;
+  }
+  .main .right-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .right-main img {
+    width: 80%;
+    z-index: 2;
+  }
+  .main .right-main video {
+    position: absolute;
+    z-index: 0;
+    width: 48vw;
+    margin-top: -5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .content .content-general {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .content .content-general .con-header {
+    font-size: 26px;
+  }
+  .content .content-general .con-theme {
+    font-size: 18px !important;
+  }
+  .content .content-general .con-footer {
+    flex-direction: column;
+  }
+  .content .content-general .con-footer input {
+    height: 48px;
+  }
+  .content .content-general .con-footer button {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 1rem;
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+  }
+  .content .content-general .con-footer button .right-arrow img {
+    margin-top: 6px;
+    width: 14px;
+    height: 14px;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 26px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: black;
+  }
+  .main .left-main {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  .main .left-main .lm-top {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .main .left-main .lm-end {
+    font-size: 1.625rem;
+    padding: 0 0 0 0;
+    margin: 0.75em 0 0.25em;
+    font-size: 20px;
+    text-align: center;
+  }
+  .main .right-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .right-main img {
+    width: 90%;
+    z-index: 2;
+  }
+  .main .right-main video {
+    position: absolute;
+    z-index: 0;
+    width: 50vw;
+    margin-top: -5px;
   }
 }/*# sourceMappingURL=style.css.map */
